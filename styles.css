@@ -1,0 +1,71 @@
+body {
+  text-align: left;
+  width: 100%;
+}
+
+main {
+  margin: 0 auto;
+  width: 500px;
+}
+
+#divBox1 {
+  height: 500px;
+  width: 500px;
+  background-color: green;
+  position: relative;
+}
+
+#divBox2 {
+  height: 400px;
+  width: 400px;
+  background-color: rgb(0, 212, 2);
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  -ms-transform: rotate(10deg); /* IE 9 */
+  -webkit-transform: rotate(10deg); /* Chrome, Safari, Opera */
+  transform: rotate(10deg);
+}
+
+#divBox3 {
+  height: 300px;
+  width: 300px;
+  background-color: rgb(36, 168, 8);
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  -ms-transform: rotate(20deg); /* IE 9 */
+  -webkit-transform: rotate(20deg); /* Chrome, Safari, Opera */
+  transform: rotate(20deg);
+}
+
+#divBox4 {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(70, 255, 0);
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  -ms-transform: rotate(30deg); /* IE 9 */
+  -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+  transform: rotate(30deg);
+}
+
+#divBox5 {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(143, 255, 65);
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  -ms-transform: rotate(40deg); /* IE 9 */
+  -webkit-transform: rotate(40deg); /* Chrome, Safari, Opera */
+  transform: rotate(40deg);
+}
+
+#stem {
+  height: 400px;
+  width: 100px;
+  margin: 0 auto;
+  background-color: rgb(137, 184, 4);
+}
